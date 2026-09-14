@@ -1,17 +1,17 @@
 <!-- src/routes/+layout.svelte -->
 <script>
-	let { childen } = $props()
+	let { children } = $props();
 </script>
 
 <svelte:head>
 	<title>Ajou Mini Portfolio</title>
 	<meta name="description" content="SvelteKit + Vercel mini portfolio" />
-</svelte:heade>
+</svelte:head>
 
 <nav>
 	<a href="/">Home</a>
-	<a href="/about"About</a>
-	<a hreg="/projects">Projects</a>
+	<a href="/about">About</a>
+	<a href="/projects">Projects</a>
 </nav>
 
 <main>
