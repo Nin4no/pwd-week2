@@ -4,7 +4,7 @@
 
 	function randomize() {
 		const msgs = ['웹 개발 재미있다!', 'SvelteKit 금방 익힘', 'Vercel로 바로 배포!'];
-		alert(msgs[Math.floor(Math.radom() * msgs.length)]);
+		alert(msgs[Math.floor(Math.random() * msgs.length)]);
 	}
 </script>
 
