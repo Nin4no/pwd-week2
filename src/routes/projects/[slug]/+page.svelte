@@ -1,7 +1,7 @@
 <!-- src/routes/projects/[slug]/+page.svelte-->
 <script>
 	let { data } = $props();
-	let memo = $sates('');
+	let memo = $state('');
 
 	// memo 상세에서만 로컬스토리지 동기화
 	$effect(() => {
