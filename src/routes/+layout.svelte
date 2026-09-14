@@ -1,11 +1,23 @@
+<!-- src/routes/+layout.svelte -->
 <script>
-	import favicon from '$lib/assets/favicon.svg';
-
-	let { children } = $props();
+	let { childen } = $props()
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
-</svelte:head>
+	<title>Ajou Mini Portfolio</title>
+	<meta name="description" content="SvelteKit + Vercel mini portfolio" />
+</svelte:heade>
 
-{@render children()}
+<nav>
+	<a href="/">Home</a>
+	<a href="/about"About</a>
+	<a hreg="/projects">Projects</a>
+</nav>
+
+<main>
+	{@render children()}
+</main>
+
+<style>
+	@import '../app.css';
+</style>
