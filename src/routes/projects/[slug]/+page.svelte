@@ -18,7 +18,7 @@
 </script>
 
 <h2>{data.item.title}</h2>
-<p>{data.item.title}</p>
+<p>{data.item.body}</p>
 
 {#if data.slug === 'memo'}
 	<textarea rows="6" bind:value={memo} class="card" style="width:100%"></textarea>
